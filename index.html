@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Latihan SKD CPNS — Tryout CAT 110 Soal</title>
+<meta name="description" content="Latihan SKD CPNS: TWK 30, TIU 35, TKP 45 soal. Timer 100 menit, skor otomatis, passing grade, dan pembahasan. Pola soal sama seperti SKD tahun-tahun sebelumnya.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div>
+      <h1>Latihan SKD CPNS</h1>
+      <p class="sub">Tryout CAT &bull; TWK 30 &bull; TIU 35 &bull; TKP 45 &bull; 110 soal &bull; 100 menit</p>
+    </div>
+    <div class="badge">SKD</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="notice"><strong>Jujur dulu:</strong> ini soal <strong>latihan</strong>, bukan soal asli BKN. Bank soal CAT BKN itu rahasia dan tidak dipublikasikan. Soal di sini dibuat mengikuti kisi-kisi resmi dan pola soal yang pernah keluar tahun-tahun sebelumnya — tipe soalnya sama, angkanya beda. Tujuannya supaya kamu ada gambaran dan bisa belajar polanya.</p>
+
+  <!-- HOME -->
+  <section id="screen-home" class="card">
+    <h2>Pilih mode latihan</h2>
+    <div class="modes">
+      <button class="mode" data-mode="full">
+        <strong>Tryout Full — 110 soal</strong>
+        <span>Persis format ujian: TWK → TIU → TKP, 100 menit, skor + passing grade lengkap.</span>
+      </button>
+      <button class="mode" data-mode="twk">
+        <strong>Latihan TWK — 30 soal</strong>
+        <span>Pancasila, UUD 1945, NKRI, bela negara, sejarah. Target ≥ 65.</span>
+      </button>
+      <button class="mode" data-mode="tiu">
+        <strong>Latihan TIU — 35 soal</strong>
+        <span>Verbal, numerik, deret, logika, figural. Target ≥ 80.</span>
+      </button>
+      <button class="mode" data-mode="tkp">
+        <strong>Latihan TKP — 45 soal</strong>
+        <span>Skenario kerja ASN, skor 1–5 per jawaban. Target ≥ 166.</span>
+      </button>
+      <button class="mode" data-mode="random">
+        <strong>Latihan Acak — 20 soal</strong>
+        <span>Campuran TWK, TIU, TKP, 20 menit. Cocok buat pemanasan cepat.</span>
+      </button>
+    </div>
+
+    <h3>Passing grade (formasi umum, acuan KepmenPAN-RB No. 321/2024)</h3>
+    <table class="pg">
+      <tr><th>Bagian</th><th>Soal</th><th>Nilai maks.</th><th>Passing grade</th></tr>
+      <tr><td>TWK</td><td>30</td><td>150</td><td><strong>65</strong></td></tr>
+      <tr><td>TIU</td><td>35</td><td>175</td><td><strong>80</strong></td></tr>
+      <tr><td>TKP</td><td>45</td><td>225</td><td><strong>166</strong></td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>110</strong></td><td><strong>550</strong></td><td><strong>311</strong></td></tr>
+    </table>
+    <p class="hint">Lolos SKD itu harus lolos <strong>ketiga</strong> bagian sekaligus, bukan cuma totalnya. TWK/TIU: benar 5, salah 0. TKP: tiap jawaban bernilai 1–5, tidak ada jawaban 0 kalau diisi.</p>
+    <p class="hint">Tips: kerjakan TKP dulu (tidak perlu hitung), lalu TWK, sisakan waktu paling banyak untuk TIU.</p>
+
+    <h3>Riwayat skor kamu (tersimpan di browser ini)</h3>
+    <div id="history"><p class="hint">Belum ada tryout yang selesai.</p></div>
+    <button id="clear-history" class="btn ghost">Hapus riwayat</button>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="screen-quiz" class="card hidden">
+    <div class="quiz-head">
+      <div>
+        <h2 id="quiz-title">Tryout</h2>
+        <p id="quiz-progress" class="hint"></p>
+      </div>
+      <div class="timer" id="timer">100:00</div>
+    </div>
+    <div class="quiz-layout">
+      <div class="qcol">
+        <p class="qmeta" id="q-meta"></p>
+        <p class="qtext" id="q-text"></p>
+        <div id="q-options" class="options"></div>
+        <div class="qnav">
+          <button id="btn-prev" class="btn ghost">← Sebelumnya</button>
+          <button id="btn-flag" class="btn ghost">⚑ Tandai ragu-ragu</button>
+          <button id="btn-next" class="btn primary">Berikutnya →</button>
+        </div>
+      </div>
+      <aside class="gridcol">
+        <p class="hint">Klik nomor untuk lompat. Kuning = ragu-ragu.</p>
+        <div id="q-grid" class="qgrid"></div>
+        <button id="btn-submit" class="btn primary block">Selesai &amp; Lihat Skor</button>
+        <button id="btn-quit" class="btn ghost block">Batalkan tryout</button>
+      </aside>
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="screen-result" class="card hidden">
+    <h2 id="result-title">Hasil</h2>
+    <div id="result-summary"></div>
+    <div class="review-tools">
+      <button id="filter-all" class="btn primary">Semua soal</button>
+      <button id="filter-wrong" class="btn ghost">Yang salah / skor rendah saja</button>
+      <button id="btn-retry" class="btn ghost">Ulangi mode ini</button>
+      <button id="btn-home" class="btn ghost">Kembali ke beranda</button>
+    </div>
+    <div id="review"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Latihan mandiri, bukan situs resmi BKN. Info resmi pendaftaran &amp; jadwal: <a href="https://sscasn.bkn.go.id" target="_blank" rel="noopener">sscasn.bkn.go.id</a>. Soal di sini: TWK 30, TIU 35, TKP 45 — total 110 soal dengan pembahasan.</p>
+</footer>
+
+<script src="soal.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
