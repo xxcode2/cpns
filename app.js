@@ -162,7 +162,6 @@ function renderHistory(){
 
 // Events
 document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => {
-  if (!confirm('Mulai ' + MODES[b.dataset.mode].title + '? Timer langsung jalan.')) return;
   startMode(b.dataset.mode);
 }));
 $('btn-prev').onclick = () => { if (state.idx > 0){ state.idx--; renderQuestion(); renderGrid(); } };
