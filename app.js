@@ -68,12 +68,14 @@ function renderQuestion(){
   const q = state.questions[state.idx];
   $('q-meta').textContent = `Soal ${state.idx+1} dari ${state.questions.length} • ${q.section}` + (q.section==='TKP' ? ' • skor jawaban 1–5' : ' • benar 5, salah 0');
   $('q-text').textContent = q.q;
+  // Soal figural: gambar deretan kotak (SVG, dari data soal sendiri)
+  $('q-figure').innerHTML = q.figure || '';
   $('quiz-progress').textContent = `Dijawab: ${Object.keys(state.answers).length}/${state.questions.length} • Ditandai: ${state.flags.size}`;
   const box = $('q-options'); box.innerHTML = '';
   q.options.forEach((opt, i) => {
     const b = document.createElement('button');
     b.className = 'opt' + (state.answers[state.idx] === i ? ' selected' : '');
-    b.innerHTML = `<b>${LETTERS[i]}.</b> ${escapeHtml(opt)}`;
+    b.innerHTML = `<b>${LETTERS[i]}.</b> ` + (q.optionFigures ? q.optionFigures[i] + ` <span>${escapeHtml(opt)}</span>` : escapeHtml(opt));
     b.onclick = () => { state.answers[state.idx] = i; renderQuestion(); renderGrid(); };
     box.appendChild(b);
   });
@@ -127,11 +129,13 @@ function renderReview(filter){
     let ansHtml;
     if (q.section === 'TKP'){
       ansHtml = q.options.map((o, j) => `<div class="ans">${choice===j?'👉 ':''}<b>${LETTERS[j]} (${q.points[j]} poin)</b> — ${escapeHtml(o)}</div>`).join('');
+    } else if (q.optionFigures){
+      ansHtml = q.options.map((o, j) => `<div class="ans">${choice===j?'👉 ':''}<b>${LETTERS[j]}</b> ${q.optionFigures[j]} <span>${escapeHtml(o)}</span>${j===q.answer?' ✅ (kunci)':''}</div>`).join('');
     } else {
       ansHtml = q.options.map((o, j) => `<div class="ans">${choice===j?'👉 ':''}<b>${LETTERS[j]}</b> — ${escapeHtml(o)}${j===q.answer?' ✅ (kunci)':''}</div>`).join('');
     }
     div.innerHTML = `<p><strong>Soal ${i+1} • ${q.section}</strong> — skor kamu: <strong>${s}</strong>${choice===undefined?' (tidak dijawab)':''}</p>
-      <p>${escapeHtml(q.q)}</p>${ansHtml}
+      <p>${escapeHtml(q.q)}</p>${q.figure || ''}${ansHtml}
       <p class="expl"><strong>Pembahasan:</strong> ${escapeHtml(q.explanation)}</p>`;
     box.appendChild(div);
   });

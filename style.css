@@ -56,3 +56,10 @@ table.pg th{background:#eef4ff}
 .expl{background:#eef4ff;border-radius:8px;padding:10px 12px}
 .foot{color:#5b6b7c;font-size:13px;padding-bottom:30px}
 a{color:#0b3d91}
+/* Soal figural: deretan kotak gambar seperti CAT asli */
+.fig-seq{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
+.fig-seq svg{width:64px;height:64px}
+.opt svg{width:56px;height:56px;vertical-align:middle}
+.opt span{vertical-align:middle}
+.review-item .ans svg{width:48px;height:48px;vertical-align:middle}
+.review-item .fig-seq svg{width:56px;height:56px}

@@ -843,51 +843,76 @@ var QUESTIONS = [
   "section": "TIU"
  },
  {
-  "answer": 2,
-  "explanation": "Pola berulang 3 simbol: ▲ - ● - ■, lalu kembali ke ▲ - ● - ■. Setelah ▲, ●, simbol berikutnya adalah ■.",
   "id": 61,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
   "options": [
-   "▲",
-   "●",
-   "■",
-   "◆",
-   "★"
+   "Segitiga",
+   "Lingkaran",
+   "Persegi",
+   "Belah ketupat",
+   "Bintang"
   ],
-  "q": "Perhatikan pola simbol berikut: ▲, ●, ■, ▲, ●, ... Simbol berikutnya adalah ...",
-  "section": "TIU"
- },
- {
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 52.0,32.0 32.0,52.0 12.0,32.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg>"
+  ],
   "answer": 2,
-  "explanation": "Jumlah lingkaran bertambah 1 setiap langkah: 1, 2, 3, 4, jadi berikutnya 5 lingkaran.",
+  "explanation": "Pola berulang 3 bentuk: segitiga - lingkaran - persegi, lalu kembali ke segitiga - lingkaran - persegi. Setelah segitiga, lingkaran, berikutnya adalah persegi."
+ },
+ {
   "id": 62,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"6\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"42\" cy=\"32\" r=\"6\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"32\" cy=\"44\" r=\"6\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"42\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"22\" cy=\"42\" r=\"6\" fill=\"#111111\"/><circle cx=\"42\" cy=\"42\" r=\"6\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
   "options": [
-   "3 lingkaran",
-   "4 lingkaran",
-   "5 lingkaran",
-   "6 lingkaran",
-   "7 lingkaran"
+   "3 titik",
+   "4 titik",
+   "5 titik",
+   "6 titik",
+   "7 titik"
   ],
-  "q": "Perhatikan pola jumlah lingkaran berikut: 1 lingkaran, 2 lingkaran, 3 lingkaran, 4 lingkaran, ... Berapa lingkaran pada gambar berikutnya?",
-  "section": "TIU"
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"32\" cy=\"44\" r=\"6\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"42\" cy=\"22\" r=\"6\" fill=\"#111111\"/><circle cx=\"22\" cy=\"42\" r=\"6\" fill=\"#111111\"/><circle cx=\"42\" cy=\"42\" r=\"6\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"20\" r=\"6\" fill=\"#111111\"/><circle cx=\"32\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"20\" cy=\"44\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"44\" r=\"6\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"20\" r=\"6\" fill=\"#111111\"/><circle cx=\"20\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"20\" cy=\"44\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"44\" r=\"6\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"18\" r=\"6\" fill=\"#111111\"/><circle cx=\"32\" cy=\"18\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"18\" r=\"6\" fill=\"#111111\"/><circle cx=\"20\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"32\" r=\"6\" fill=\"#111111\"/><circle cx=\"20\" cy=\"46\" r=\"6\" fill=\"#111111\"/><circle cx=\"44\" cy=\"46\" r=\"6\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 2,
+  "explanation": "Jumlah titik bertambah 1 setiap langkah: 1, 2, 3, 4, jadi berikutnya 5 titik."
  },
  {
-  "answer": 3,
-  "explanation": "Langkah 1: atas menjadi kanan. Langkah 2: kanan menjadi bawah. Langkah 3: bawah menjadi kiri. Jadi setelah 3 langkah panah menunjuk ke kiri.",
   "id": 63,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(90 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(180 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
   "options": [
-   "Atas",
-   "Kanan",
-   "Bawah",
-   "Kiri",
-   "Atas lagi"
+   "Panah ke atas",
+   "Panah ke kanan",
+   "Panah ke bawah",
+   "Panah ke kiri",
+   "Panah ke kanan atas"
   ],
-  "q": "Sebuah panah mula-mula menunjuk ke atas. Panah tersebut diputar 90 derajat searah jarum jam pada setiap langkah. Setelah 3 langkah, panah menunjuk ke arah ...",
-  "section": "TIU"
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(90 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(180 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(270 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(45 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>"
+  ],
+  "answer": 3,
+  "explanation": "Panah berputar 90 derajat searah jarum jam setiap langkah: atas menjadi kanan, kanan menjadi bawah, bawah menjadi kiri. Jadi berikutnya panah menunjuk ke kiri."
  },
  {
-  "answer": 3,
-  "explanation": "Jumlah sisi bertambah 1 setiap langkah: 3, 4, 5, 6, jadi berikutnya 7 sisi, yaitu segitujuh.",
   "id": 64,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 52.0,32.0 32.0,52.0 12.0,32.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 51.0,25.8 43.8,48.2 20.2,48.2 13.0,25.8\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,22.0 49.3,42.0 32.0,52.0 14.7,42.0 14.7,22.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
   "options": [
    "Segitiga (3 sisi)",
    "Segilima (5 sisi)",
@@ -895,22 +920,37 @@ var QUESTIONS = [
    "Segitujuh (7 sisi)",
    "Segidelapan (8 sisi)"
   ],
-  "q": "Perhatikan pola bangun berikut: segitiga (3 sisi), segiempat (4 sisi), segilima (5 sisi), segienam (6 sisi), ... Bangun berikutnya adalah ...",
-  "section": "TIU"
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 51.0,25.8 43.8,48.2 20.2,48.2 13.0,25.8\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,22.0 49.3,42.0 32.0,52.0 14.7,42.0 14.7,22.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 47.6,19.5 51.5,36.5 40.7,50.0 23.3,50.0 12.5,36.5 16.4,19.5\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 46.1,17.9 52.0,32.0 46.1,46.1 32.0,52.0 17.9,46.1 12.0,32.0 17.9,17.9\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 3,
+  "explanation": "Jumlah sisi bertambah 1 setiap langkah: 3, 4, 5, 6, jadi berikutnya 7 sisi, yaitu segitujuh."
  },
  {
-  "answer": 1,
-  "explanation": "Pola bergantian: bintang penuh (★), bintang kosong (☆), bintang penuh, bintang kosong, bintang penuh, jadi berikutnya bintang kosong (☆).",
   "id": 65,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
   "options": [
-   "★",
-   "☆",
-   "●",
-   "■",
-   "▲"
+   "Bintang penuh",
+   "Bintang kosong",
+   "Lingkaran",
+   "Persegi",
+   "Segitiga"
   ],
-  "q": "Perhatikan pola bintang berikut: ★, ☆, ★, ☆, ★, ... Simbol berikutnya adalah ...",
-  "section": "TIU"
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 1,
+  "explanation": "Pola bergantian: bintang penuh, bintang kosong, bintang penuh, bintang kosong, bintang penuh, jadi berikutnya bintang kosong."
  },
  {
   "category": "Pelayanan Publik",
