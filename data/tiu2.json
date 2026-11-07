@@ -1,0 +1,532 @@
+[
+ {
+  "id": 231,
+  "section": "TIU",
+  "q": "Sinonim kata \"AKURAT\" adalah ...",
+  "options": [
+   "Ceroboh",
+   "Kasar",
+   "Tepat dan benar",
+   "Lambat",
+   "Berlebihan"
+  ],
+  "answer": 2,
+  "explanation": "Akurat berarti tepat dan benar, tidak meleset dari sasaran atau kenyataan."
+ },
+ {
+  "id": 232,
+  "section": "TIU",
+  "q": "Sinonim kata \"DERMAWAN\" adalah ...",
+  "options": [
+   "Pelit",
+   "Suka memberi dan murah hati",
+   "Hemat",
+   "Rakus",
+   "Malas"
+  ],
+  "answer": 1,
+  "explanation": "Dermawan berarti suka memberi dan murah hati kepada orang lain."
+ },
+ {
+  "id": 233,
+  "section": "TIU",
+  "q": "Sinonim kata \"GIGIH\" adalah ...",
+  "options": [
+   "Mudah menyerah",
+   "Lemah",
+   "Malas",
+   "Tekun dan pantang menyerah",
+   "Ceroboh"
+  ],
+  "answer": 3,
+  "explanation": "Gigih berarti tekun, ulet, dan pantang menyerah dalam berusaha."
+ },
+ {
+  "id": 234,
+  "section": "TIU",
+  "q": "Antonim kata \"HEMAT\" adalah ...",
+  "options": [
+   "Irit",
+   "Cermat",
+   "Boros",
+   "Rajin",
+   "Pelit"
+  ],
+  "answer": 2,
+  "explanation": "Lawan kata hemat (menggunakan secukupnya) adalah boros (menggunakan berlebihan)."
+ },
+ {
+  "id": 235,
+  "section": "TIU",
+  "q": "Antonim kata \"SETIA\" adalah ...",
+  "options": [
+   "Loyal",
+   "Taat",
+   "Jujur",
+   "Khianat / berkhianat",
+   "Patuh"
+  ],
+  "answer": 3,
+  "explanation": "Lawan kata setia (tetap berpegang teguh) adalah khianat (berkhianat / tidak setia)."
+ },
+ {
+  "id": 236,
+  "section": "TIU",
+  "q": "Antonim kata \"TERANG\" adalah ...",
+  "options": [
+   "Jelas",
+   "Gelap",
+   "Bersih",
+   "Cerah",
+   "Terik"
+  ],
+  "answer": 1,
+  "explanation": "Lawan kata terang adalah gelap."
+ },
+ {
+  "id": 237,
+  "section": "TIU",
+  "q": "JARUM : MENJAHIT = PISAU : ...",
+  "options": [
+   "Memotong",
+   "Memasak",
+   "Menjual",
+   "Membeli",
+   "Menyimpan"
+  ],
+  "answer": 0,
+  "explanation": "Jarum adalah alat untuk menjahit, pisau adalah alat untuk memotong."
+ },
+ {
+  "id": 238,
+  "section": "TIU",
+  "q": "MATA : MELIHAT = TELINGA : ...",
+  "options": [
+   "Berbicara",
+   "Mendengar",
+   "Mencium",
+   "Meraba",
+   "Berjalan"
+  ],
+  "answer": 1,
+  "explanation": "Mata adalah indra untuk melihat, telinga adalah indra untuk mendengar."
+ },
+ {
+  "id": 239,
+  "section": "TIU",
+  "q": "KUNCI : PINTU = REM : ...",
+  "options": [
+   "Kendaraan",
+   "Jalan",
+   "Ban",
+   "Bensin",
+   "Sopir"
+  ],
+  "answer": 0,
+  "explanation": "Kunci digunakan pada pintu, rem digunakan pada kendaraan. Hubungannya: alat yang dipakai pada sesuatu."
+ },
+ {
+  "id": 240,
+  "section": "TIU",
+  "q": "BUNGA : TAMAN = IKAN : ...",
+  "options": [
+   "Jaring",
+   "Pancing",
+   "Kolam",
+   "Umpan",
+   "Air"
+  ],
+  "answer": 2,
+  "explanation": "Bunga ditanam dan dipelihara di taman, ikan dipelihara di kolam."
+ },
+ {
+  "id": 241,
+  "section": "TIU",
+  "q": "4, 8, 16, 32, 64, ... Berapakah angka berikutnya?",
+  "options": [
+   "96",
+   "112",
+   "120",
+   "128",
+   "144"
+  ],
+  "answer": 3,
+  "explanation": "Setiap angka dikali 2: 4 x 2 = 8, 8 x 2 = 16, 16 x 2 = 32, 32 x 2 = 64, jadi 64 x 2 = 128."
+ },
+ {
+  "id": 242,
+  "section": "TIU",
+  "q": "1, 4, 9, 16, 25, ... Berapakah angka berikutnya?",
+  "options": [
+   "30",
+   "36",
+   "34",
+   "40",
+   "49"
+  ],
+  "answer": 1,
+  "explanation": "Deret bilangan kuadrat: 1² = 1, 2² = 4, 3² = 9, 4² = 16, 5² = 25, jadi berikutnya 6² = 36."
+ },
+ {
+  "id": 243,
+  "section": "TIU",
+  "q": "90, 80, 71, 63, 56, ... Berapakah angka berikutnya?",
+  "options": [
+   "48",
+   "49",
+   "51",
+   "52",
+   "50"
+  ],
+  "answer": 4,
+  "explanation": "Selisihnya berkurang 1 tiap langkah: -10, -9, -8, -7, jadi selisih berikutnya -6. 56 - 6 = 50."
+ },
+ {
+  "id": 244,
+  "section": "TIU",
+  "q": "1, 3, 6, 10, 15, ... Berapakah angka berikutnya?",
+  "options": [
+   "21",
+   "18",
+   "19",
+   "20",
+   "22"
+  ],
+  "answer": 0,
+  "explanation": "Selisihnya bertambah 1 tiap langkah: +2, +3, +4, +5, jadi selisih berikutnya +6. 15 + 6 = 21."
+ },
+ {
+  "id": 245,
+  "section": "TIU",
+  "q": "3, 6, 11, 18, 27, ... Berapakah angka berikutnya?",
+  "options": [
+   "34",
+   "36",
+   "38",
+   "40",
+   "42"
+  ],
+  "answer": 2,
+  "explanation": "Selisihnya bilangan ganjil berurutan: +3, +5, +7, +9, jadi selisih berikutnya +11. 27 + 11 = 38."
+ },
+ {
+  "id": 246,
+  "section": "TIU",
+  "q": "Berapakah 25% dari 240?",
+  "options": [
+   "60",
+   "50",
+   "55",
+   "65",
+   "70"
+  ],
+  "answer": 0,
+  "explanation": "25% dari 240 = 25/100 x 240 = 60."
+ },
+ {
+  "id": 247,
+  "section": "TIU",
+  "q": "Harga 4 kg gula adalah Rp48.000,00. Berapa harga 7 kg gula yang sama?",
+  "options": [
+   "Rp72.000,00",
+   "Rp84.000,00",
+   "Rp80.000,00",
+   "Rp88.000,00",
+   "Rp96.000,00"
+  ],
+  "answer": 1,
+  "explanation": "Harga 1 kg = Rp48.000 : 4 = Rp12.000. Harga 7 kg = 7 x Rp12.000 = Rp84.000."
+ },
+ {
+  "id": 248,
+  "section": "TIU",
+  "q": "Jika diketahui a + b = 15 dan ab = 56, berapakah nilai a^2 + b^2?",
+  "options": [
+   "100",
+   "105",
+   "120",
+   "125",
+   "113"
+  ],
+  "answer": 4,
+  "explanation": "(a+b)² = a² + 2ab + b², jadi 225 = a² + b² + 112, maka a² + b² = 113. Cek: a = 7, b = 8, maka 49 + 64 = 113."
+ },
+ {
+  "id": 249,
+  "section": "TIU",
+  "q": "Perbandingan uang Sinta dan Rina adalah 2 : 3. Jumlah uang mereka Rp250.000,00. Berapa uang Rina?",
+  "options": [
+   "Rp150.000,00",
+   "Rp100.000,00",
+   "Rp125.000,00",
+   "Rp175.000,00",
+   "Rp200.000,00"
+  ],
+  "answer": 0,
+  "explanation": "Jumlah bagian = 2 + 3 = 5. Uang Rina = 3/5 x Rp250.000 = Rp150.000."
+ },
+ {
+  "id": 250,
+  "section": "TIU",
+  "q": "Berapakah 12,5% dari 96?",
+  "options": [
+   "10",
+   "14",
+   "16",
+   "18",
+   "12"
+  ],
+  "answer": 4,
+  "explanation": "12,5% = 1/8. 96 : 8 = 12."
+ },
+ {
+  "id": 251,
+  "section": "TIU",
+  "q": "Sebuah proyek dapat diselesaikan oleh 15 orang pekerja dalam waktu 12 hari. Jika proyek harus selesai dalam 9 hari, berapa tambahan pekerja yang diperlukan?",
+  "options": [
+   "3 orang",
+   "4 orang",
+   "6 orang",
+   "5 orang",
+   "8 orang"
+  ],
+  "answer": 3,
+  "explanation": "Total pekerjaan = 15 x 12 = 180 orang-hari. Untuk 9 hari dibutuhkan 180 : 9 = 20 orang. Tambahan = 20 - 15 = 5 orang."
+ },
+ {
+  "id": 252,
+  "section": "TIU",
+  "q": "Pipa A dapat mengisi sebuah kolam hingga penuh dalam waktu 3 jam, sedangkan pipa B membutuhkan waktu 6 jam untuk mengisi kolam yang sama. Jika kedua pipa dibuka secara bersamaan, berapa lama waktu yang dibutuhkan untuk mengisi kolam tersebut hingga penuh?",
+  "options": [
+   "1 jam",
+   "1 jam 30 menit",
+   "2 jam 30 menit",
+   "3 jam",
+   "2 jam"
+  ],
+  "answer": 4,
+  "explanation": "Kecepatan gabungan = 1/3 + 1/6 = 1/2 kolam per jam. Waktu = 1 : (1/2) = 2 jam."
+ },
+ {
+  "id": 253,
+  "section": "TIU",
+  "q": "Seorang pedagang membeli 5 kg mangga seharga Rp100.000,00, lalu menjualnya dengan harga Rp25.000,00 per kg. Berapa persen keuntungan pedagang tersebut?",
+  "options": [
+   "10%",
+   "15%",
+   "25%",
+   "20%",
+   "30%"
+  ],
+  "answer": 2,
+  "explanation": "Hasil penjualan = 5 x Rp25.000 = Rp125.000. Untung = Rp125.000 - Rp100.000 = Rp25.000. Persentase = 25.000/100.000 x 100% = 25%."
+ },
+ {
+  "id": 254,
+  "section": "TIU",
+  "q": "Semua guru adalah pendidik. Sari adalah guru. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Sari bukan pendidik",
+   "Sari adalah pendidik",
+   "Semua pendidik adalah Sari",
+   "Sari mungkin bukan guru",
+   "Tidak dapat disimpulkan"
+  ],
+  "answer": 1,
+  "explanation": "Sari termasuk kelompok guru, dan semua guru adalah pendidik, jadi Sari adalah pendidik."
+ },
+ {
+  "id": 255,
+  "section": "TIU",
+  "q": "Semua ikan hidup di air. Lele adalah ikan. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Lele hidup di darat",
+   "Semua yang hidup di air adalah lele",
+   "Lele hidup di air",
+   "Lele bukan ikan",
+   "Tidak dapat disimpulkan"
+  ],
+  "answer": 2,
+  "explanation": "Lele termasuk kelompok ikan, dan semua ikan hidup di air, jadi lele hidup di air."
+ },
+ {
+  "id": 256,
+  "section": "TIU",
+  "q": "Semua kendaraan bermotor memakai bahan bakar. Sepeda motor adalah kendaraan bermotor. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Sepeda motor tidak memakai bahan bakar",
+   "Semua yang memakai bahan bakar adalah sepeda motor",
+   "Tidak dapat disimpulkan",
+   "Sepeda motor memakai bahan bakar",
+   "Sepeda motor bukan kendaraan"
+  ],
+  "answer": 3,
+  "explanation": "Sepeda motor termasuk kendaraan bermotor, dan semua kendaraan bermotor memakai bahan bakar, jadi sepeda motor memakai bahan bakar."
+ },
+ {
+  "id": 257,
+  "section": "TIU",
+  "q": "Jika lampu padam, maka ruangan menjadi gelap. Ruangan tidak gelap. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Lampu padam",
+   "Lampu tidak padam",
+   "Ruangan gelap karena lampu padam",
+   "Tidak dapat disimpulkan",
+   "Lampu pasti rusak"
+  ],
+  "answer": 1,
+  "explanation": "Jika lampu padam ruangan pasti gelap. Karena ruangan tidak gelap, maka lampu tidak padam (modus tollens)."
+ },
+ {
+  "id": 258,
+  "section": "TIU",
+  "q": "Semua karyawan yang disiplin akan mendapat bonus. Dedi mendapat bonus. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Dedi pasti disiplin",
+   "Dedi pasti tidak disiplin",
+   "Tidak dapat disimpulkan apakah Dedi disiplin",
+   "Semua yang mendapat bonus pasti disiplin",
+   "Dedi tidak mendapat bonus"
+  ],
+  "answer": 2,
+  "explanation": "Dedi mendapat bonus bisa karena disiplin, bisa juga karena alasan lain. Dari premis ini tidak dapat disimpulkan apakah Dedi disiplin."
+ },
+ {
+  "id": 259,
+  "section": "TIU",
+  "q": "Jika Budi menabung, maka ia bisa membeli sepeda. Budi menabung. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Budi tidak bisa membeli sepeda",
+   "Budi bisa membeli sepeda",
+   "Budi mungkin bisa membeli sepeda",
+   "Tidak dapat disimpulkan",
+   "Budi tidak menabung"
+  ],
+  "answer": 1,
+  "explanation": "Premis terpenuhi (Budi menabung), maka akibatnya berlaku: Budi bisa membeli sepeda (modus ponens)."
+ },
+ {
+  "id": 260,
+  "section": "TIU",
+  "q": "Semua penulis adalah pembaca. Sebagian pembaca adalah penyair. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Sebagian penulis pasti penyair",
+   "Semua penulis adalah penyair",
+   "Semua penyair adalah penulis",
+   "Tidak dapat dipastikan sebagian penulis adalah penyair",
+   "Sebagian penyair adalah penulis"
+  ],
+  "answer": 3,
+  "explanation": "Penyair yang merupakan pembaca belum tentu penulis. Tidak ada kepastian bahwa sebagian penulis adalah penyair."
+ },
+ {
+  "id": 261,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(45 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(90 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(135 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
+  "options": [
+   "Panah ke atas",
+   "Panah ke kanan",
+   "Panah ke kanan bawah",
+   "Panah ke bawah",
+   "Panah ke kiri"
+  ],
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(90 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(135 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(180 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><g transform=\"rotate(270 32 32)\"><polygon points=\"32,10 44,30 36,30 36,54 28,54 28,30 20,30\" fill=\"#111111\"/></g></svg>"
+  ],
+  "answer": 3,
+  "explanation": "Panah berputar 45 derajat searah jarum jam setiap langkah: 0°, 45°, 90°, 135°, jadi berikutnya 180°, yaitu panah menunjuk ke bawah."
+ },
+ {
+  "id": 262,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 46.1,17.9 52.0,32.0 46.1,46.1 32.0,52.0 17.9,46.1 12.0,32.0 17.9,17.9\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 47.6,19.5 51.5,36.5 40.7,50.0 23.3,50.0 12.5,36.5 16.4,19.5\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,22.0 49.3,42.0 32.0,52.0 14.7,42.0 14.7,22.0\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 51.0,25.8 43.8,48.2 20.2,48.2 13.0,25.8\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
+  "options": [
+   "Segitiga (3 sisi)",
+   "Segiempat (4 sisi)",
+   "Segilima (5 sisi)",
+   "Segienam (6 sisi)",
+   "Lingkaran"
+  ],
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 52.0,32.0 32.0,52.0 12.0,32.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 51.0,25.8 43.8,48.2 20.2,48.2 13.0,25.8\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,22.0 49.3,42.0 32.0,52.0 14.7,42.0 14.7,22.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 1,
+  "explanation": "Jumlah sisi berkurang 1 setiap langkah: 8, 7, 6, 5, jadi berikutnya 4 sisi, yaitu segiempat."
+ },
+ {
+  "id": 263,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
+  "options": [
+   "Segitiga",
+   "Lingkaran",
+   "Persegi",
+   "Belah ketupat",
+   "Bintang"
+  ],
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 52.0,32.0 32.0,52.0 12.0,32.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,11.0 37.0,25.1 52.0,25.5 40.1,34.6 44.3,49.0 32.0,40.5 19.7,49.0 23.9,34.6 12.0,25.5 27.0,25.1\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 2,
+  "explanation": "Pola bergantian dua bentuk: lingkaran, persegi, lingkaran, persegi, lingkaran, jadi berikutnya persegi."
+ },
+ {
+  "id": 264,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"7\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"20\" r=\"7\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"44\" r=\"7\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"44\" r=\"7\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
+  "options": [
+   "Titik di sudut kiri atas",
+   "Titik di sudut kanan atas",
+   "Titik di sudut kanan bawah",
+   "Titik di sudut kiri bawah",
+   "Titik di tengah"
+  ],
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"7\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"20\" r=\"7\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"44\" r=\"7\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"44\" r=\"7\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"7\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 0,
+  "explanation": "Titik bergerak searah jarum jam dari sudut ke sudut: kiri atas, kanan atas, kanan bawah, kiri bawah, jadi berikutnya kembali ke kiri atas."
+ },
+ {
+  "id": 265,
+  "section": "TIU",
+  "q": "Perhatikan deretan gambar berikut. Gambar berikutnya adalah ...",
+  "figure": "<div class=\"fig-seq\"><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"4\" y=\"33\" width=\"56\" height=\"27\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"4\" y=\"33\" width=\"56\" height=\"27\" fill=\"#111111\"/></svg><svg viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#f1f5f9\" stroke=\"#1c2733\" stroke-width=\"2\"/><text x=\"32\" y=\"43\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#0b3d91\">?</text></svg></div>",
+  "options": [
+   "Kotak kosong",
+   "Kotak terisi setengah",
+   "Kotak terisi penuh",
+   "Segitiga",
+   "Lingkaran"
+  ],
+  "optionFigures": [
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"4\" y=\"33\" width=\"56\" height=\"27\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><polygon points=\"32.0,12.0 49.3,42.0 14.7,42.0\" fill=\"#111111\"/></svg>",
+   "<svg viewBox=\"0 0 64 64\" width=\"56\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"60\" height=\"60\" fill=\"#ffffff\" stroke=\"#1c2733\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"18\" fill=\"#111111\"/></svg>"
+  ],
+  "answer": 2,
+  "explanation": "Pola isi kotak berulang 3 tahap: kosong, terisi setengah, terisi penuh, lalu kembali ke kosong, setengah, jadi berikutnya terisi penuh."
+ }
+]

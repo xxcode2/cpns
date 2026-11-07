@@ -4,13 +4,27 @@ const MAX = { TWK: 150, TIU: 175, TKP: 225 };
 const LETTERS = ['A','B','C','D','E'];
 
 const MODES = {
-  full:   { title: 'Tryout Full — 110 soal', minutes: 100, pick: () => [...QUESTIONS] },
-  twk:    { title: 'Latihan TWK — 30 soal', minutes: 25, pick: () => QUESTIONS.filter(q => q.section === 'TWK') },
-  tiu:    { title: 'Latihan TIU — 35 soal', minutes: 35, pick: () => QUESTIONS.filter(q => q.section === 'TIU') },
-  tkp:    { title: 'Latihan TKP — 45 soal', minutes: 40, pick: () => QUESTIONS.filter(q => q.section === 'TKP') },
-  random: { title: 'Latihan Acak — 20 soal', minutes: 20, pick: () => shuffle([...QUESTIONS]).slice(0, 20) },
+  full:   { title: 'Tryout Full — 110 soal', minutes: 100, pick: () => [...draw('TWK', 30), ...draw('TIU', 35), ...draw('TKP', 45)] },
+  twk:    { title: 'Latihan TWK — 30 soal', minutes: 25, pick: () => draw('TWK', 30) },
+  tiu:    { title: 'Latihan TIU — 35 soal', minutes: 35, pick: () => draw('TIU', 35) },
+  tkp:    { title: 'Latihan TKP — 45 soal', minutes: 40, pick: () => draw('TKP', 45) },
+  random: { title: 'Latihan Acak — 20 soal', minutes: 20, pick: () => sample([...QUESTIONS], 20).map(shuffleOptions) },
 };
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+// Bank soal: 220 soal (Set A + Set B). Tiap tryout mengambil acak per bagian,
+// lalu mengacak urutan soal dan posisi jawaban — seperti CAT asli.
+function sample(arr, n){ return shuffle([...arr]).slice(0, n); }
+function bySection(sec){ return QUESTIONS.filter(q => q.section === sec); }
+function draw(sec, n){ return sample(bySection(sec), n).map(shuffleOptions); }
+// Acak posisi jawaban; kunci/poin dan gambar pilihan ikut berpindah bersama opsinya.
+function shuffleOptions(q){
+  const order = shuffle([0, 1, 2, 3, 4]);
+  const nq = { ...q, options: order.map(i => q.options[i]) };
+  if (q.optionFigures) nq.optionFigures = order.map(i => q.optionFigures[i]);
+  if (q.section === 'TKP') nq.points = order.map(i => q.points[i]);
+  else nq.answer = order.indexOf(q.answer);
+  return nq;
+}
 
 let state = null; // {mode, questions, answers:{}, flags:Set, idx, secondsLeft, timerId}
 let lastResult = null;

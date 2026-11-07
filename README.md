@@ -4,8 +4,9 @@ Website latihan Seleksi Kompetensi Dasar (SKD) CPNS — tryout ala CAT BKN.
 
 ## Isi
 
-- **110 soal**: TWK 30, TIU 35, TKP 45
-- **Tryout Full**: 110 soal, timer 100 menit, skor otomatis
+- **Bank 220 soal** (2 set): TWK 60, TIU 70, TKP 90
+- **Tryout Full**: diambil acak 110 soal (30 TWK + 35 TIU + 45 TKP), timer 100 menit, skor otomatis
+- Urutan soal dan posisi jawaban (A–E) diacak setiap tryout, seperti CAT asli
 - **Latihan per bagian**: TWK / TIU / TKP, dan mode Acak 20 soal
 - **Passing grade** (formasi umum, acuan KepmenPAN-RB No. 321/2024):
   - TWK ≥ 65 (maks 150)
